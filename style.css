@@ -1,0 +1,28 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.calender{
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap:.5em;
+    grid-template-rows: 3em repeat(5, 1fr) ;
+}
+.day, .date{
+    border: 1px solid rgba(179, 179, 179, 0.452);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151 159 197 / 16%);
+    font-size: 30px;
+}
+.extra{
+    background: #a9a9a90f;
+}
+.day{
+    background: rgb(133 133 133 / 47%);
+}
+.day{
+    font-size: 25px;
+}
